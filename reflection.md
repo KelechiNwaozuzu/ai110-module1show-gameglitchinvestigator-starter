@@ -8,6 +8,24 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+- After I won a game and tried to start a new one, my number of attempts was stuck at 0. I was not able to start a new game. The game never reset.
+
+- When I entered a negative number, I was continuously instructed to "Go LOWER!" even though the Secret number was positive. This does not make logical sense.
+
+- In the "Easy" difficulty mode, the range for the secret number is listed as 1 to 20. However, I was given secret numbers that were outside of this range, like 59, for example.
+
+- Changing the difficulty mode does not reset the game. Instead, it changes the number of attempts I have left to guess the secret number.
+
+- When my secret number was 59, I entered "90" and was instructed to "Go HIGHER". Then, when I entered "30", I was instructed to "Go LOWER", even tho the number 59 is larger than 30. I expected that logic to be flipped.
+
+- I expected the "Hard" difficulty mode to have the widest range of numbers to guess from. However, the range for Normal was 1 to 100, and the range for Hard was 1 to 50. That would make the "Hard" mode easier to guess the secret number than the "Normal" mode.
+
+- My secret number in Normal mode was consistently between 1 and 100. For example, one of my secret numbers was 61. When I started to enter numbers in the 90s, I was consistently instructed to "Go HIGHER!" which does not make sense because 61 is lower than any number in the 90s. However, when I entered the number 100, it 
+
+- MAYBE: On odd attempts, the secret number is turned into a string.
+
+- My secret number in Normal mode was 12. I entered the number 100, and I was instructed to "Go LOWER!" Then I entered 100 again, and I was instructed to "Go HIGHER!" The logic flipped back and forth, telling me to go lower then higher repeatedly, even though I was not entering the same guess on every attempt. I expect to be told the same hint every time I guess the same number.
+
 ---
 
 ## 2. How did you use AI as a teammate?
